@@ -1,0 +1,31 @@
+main {
+  padding: 5%;
+}
+@media(min-width:768px)
+{
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  p{
+    flex-basis:45%;
+  }
+  article{
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;;
+  }
+  h2{
+    flex-basis: 100%;
+  }
+}
+
+@media(min-width:1200px)
+{
+  article  p{
+    flex-basis:calc((85%) / 4);
+
+  }
+}
